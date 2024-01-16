@@ -1,0 +1,14 @@
+body {
+  font-size: 24px;
+  background-color: gray;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 42px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+main img {
+  width: 10rem;
+}/*# sourceMappingURL=style.css.map */
