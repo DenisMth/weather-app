@@ -1,14 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;400;700&display=swap");
 body {
+  font-family: "Kanit", sans-serif;
   font-size: 24px;
-  background-color: gray;
+  background-color: rgb(52, 138, 160);
   text-align: center;
 }
 
 header h1 {
   font-size: 42px;
-  font-family: "Courier New", Courier, monospace;
 }
 
 main img {
   width: 10rem;
+}
+
+input {
+  border: none;
+  font-family: "Kanit", sans-serif;
+  border-radius: 0.3rem;
+  padding: 0.2rem;
+}
+
+button {
+  font-weight: bold;
+  font-family: "Kanit", sans-serif;
+  border: none;
+  background-color: rgb(81, 185, 211);
+  border-radius: 1rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+}
+button:hover {
+  background-color: rgb(3, 70, 87);
+  color: rgb(226, 223, 223);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.weatherIcons {
+  filter: invert(100%) sepia(1%) saturate(4488%) hue-rotate(172deg) brightness(116%) contrast(89%);
 }/*# sourceMappingURL=style.css.map */
