@@ -37,6 +37,41 @@ button{
         transition: all .3s;
     }
 }
+.realTimeWeather{
+    color:rgb(226, 223, 223);
+    margin:auto;
+    margin-top:2rem;
+    width:20rem;
+    border-radius: 3rem;
+    background-color: rgb(84, 170, 192);
+    h2{
+        font-size: 36px;
+        margin:0;
+        padding:0;
+        padding-top: 1rem;
+        text-transform: capitalize;
+    }
+    p{
+        margin:0;
+        padding:0;
+    }
+}
 .weatherIcons{
     filter: invert(100%) sepia(1%) saturate(4488%) hue-rotate(172deg) brightness(116%) contrast(89%);
+}
+
+h2{
+    color:rgb(226, 223, 223);
+}
+.todayWeather{
+    display: flex;
+    background-color: rgb(84, 170, 192);
+    border-radius: 3rem;
+    color:rgb(226, 223, 223);
+    span{
+        width:33%;
+        .weatherIcons{
+            width:6rem;
+        }
+    }
 }
