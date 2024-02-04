@@ -13,7 +13,7 @@ Enter a city name and the page will display the weather of the place.
 
 ## Operating mode
 
-- Using an API to get a picture of the place given.
-- Using an API to get the coordinates when a string is given.
-- Using another API to get the current weather using the coordinates found with the first API.
+- Using an API to get a picture of the place given. (API can be found at https://unsplash.com/developers)
+- Using an API to get the coordinates when a string is given. (API can be found at https://fr.locationiq.com/)
+- Using another API to get the current weather using the coordinates found with the first API. (API can be found at https://open-meteo.com/)
 - Using forecast data from the weather API to display daily and weekly forecasts.
