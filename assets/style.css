@@ -54,6 +54,7 @@ button:hover {
 .realTimeWeather p {
   margin: 0;
   padding: 0;
+  padding-bottom: 1rem;
 }
 
 .weatherIcons {
@@ -70,9 +71,38 @@ h2 {
   border-radius: 3rem;
   color: rgb(226, 223, 223);
 }
+.todayWeather h2 {
+  font-size: 32px;
+}
+.todayWeather h3 {
+  font-size: 16px;
+}
 .todayWeather span {
   width: 33%;
 }
 .todayWeather span .weatherIcons {
   width: 6rem;
+}
+
+.weekForecast {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(84, 170, 192);
+  border-radius: 3rem;
+  color: rgb(226, 223, 223);
+}
+.weekForecast h2 {
+  font-size: 24px;
+}
+.weekForecast h3 {
+  font-size: 16px;
+}
+.weekForecast .weekForecastDay {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.weekForecast .weekForecastDay .weatherIcons {
+  width: 4rem;
 }/*# sourceMappingURL=style.css.map */

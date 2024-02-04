@@ -54,6 +54,7 @@ button{
     p{
         margin:0;
         padding:0;
+        padding-bottom: 1rem;
     }
 }
 .weatherIcons{
@@ -68,10 +69,38 @@ h2{
     background-color: rgb(84, 170, 192);
     border-radius: 3rem;
     color:rgb(226, 223, 223);
+    h2{
+        font-size: 32px;
+    }
+    h3{
+        font-size:16px;
+    }
     span{
         width:33%;
         .weatherIcons{
             width:6rem;
+        }
+    }
+}
+.weekForecast{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(84, 170, 192);
+    border-radius: 3rem;
+    color:rgb(226, 223, 223);
+    h2{
+        font-size: 24px;
+    }
+    h3{
+        font-size: 16px;
+    }
+    .weekForecastDay{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        .weatherIcons{
+            width:4rem;
         }
     }
 }
